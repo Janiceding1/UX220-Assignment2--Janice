@@ -2,11 +2,11 @@
     --main-background: #F5FAF5;
     --main-foreground: #173B20;
     --nav-background: #008A00;
-    --nav-foreground: white;
+    --nav-foreground: silver;
     --footer-background: #005A00;
-    --footer-foreground: white;
+    --footer-foreground: silver;
     --button-background: #008A00;
-    --button-foreground: white;
+    --button-foreground: silver;
     --pane-padding: 5px 42px;
 }
 
@@ -22,6 +22,7 @@ h1, h2, h3 {
 
 nav.navbar.bg-dark {
     background-color: var(--nav-background) !important;
+    color: var(--nav-foreground);
     padding: var(--pane-padding);
 }
 
@@ -29,7 +30,6 @@ footer {
     background-color: var(--footer-background);
     color: var(--footer-foreground);
     padding: var(--pane-padding);
-    text-align: center;
 }
 
 button {

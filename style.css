@@ -25,6 +25,10 @@ nav.navbar.bg-dark {
 }
 
 footer {
-    background-color: var(--footer-background);
-    color: white;
+    background-color: #008A00;
+    color: white !important;
+}
+
+footer a {
+    color: white !important;
 }

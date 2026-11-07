@@ -29,6 +29,7 @@ main section h1 {
 
 nav.navbar.bg-dark {
     background-color: var(--nav-background) !important;
+    color: var(--nav-foreground);
     padding: var(--pane-padding);
 }
 

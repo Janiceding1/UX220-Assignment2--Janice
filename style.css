@@ -4,11 +4,11 @@
     --main-background: #F5FAF5;
     --main-foreground: #173B20;
     --nav-background: #008A00;
-    --nav-foreground: lightgreen;
+    --nav-foreground: light green;
     --footer-background: #005A00;
-    --footer-foreground: lightgreen;
+    --footer-foreground: light green;
     --button-background: #008A00;
-    --button-foreground: lightgreen;
+    --button-foreground: light green;
     --pane-padding: 5px 42px;
 }
 

@@ -9,12 +9,13 @@
 body {
     background-color: var(--main-background);
     color: var(--main-foreground);
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--heading-color);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
 }
 
 nav.navbar.bg-dark {
@@ -23,4 +24,5 @@ nav.navbar.bg-dark {
 
 footer {
     background-color: var(--footer-background);
+    color: white;
 }

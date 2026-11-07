@@ -48,3 +48,7 @@ main section {
     margin-bottom: 30px;
     padding: 25px;
 }
+
+body {
+    background-color: hotpink !important;
+}

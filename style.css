@@ -1,6 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap');
 :root {
     --main-background: #F5FAF5;
     --main-foreground: #173B20;
@@ -20,31 +18,10 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 
 main section h1 {
     font-size: 32px;
-}
-
-nav.navbar.bg-dark {
-    background-color: var(--nav-background) !important;
-    color: var(--nav-foreground);
-    padding: var(--pane-padding);
-}
-
-footer {
-    background-color: var(--footer-background);
-    color: var(--footer-foreground);
-    padding: var(--pane-padding);
-}
-
-button {
-    background-color: var(--button-background);
-    color: var(--button-foreground);
-}
-
-main section {
-    margin-bottom: 30px;
-    padding: 25px;
 }

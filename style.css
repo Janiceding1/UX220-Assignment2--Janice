@@ -27,3 +27,25 @@ h1, h2, h3, h4, h5, h6 {
 main section h1 {
     font-size: 32px;
 }
+
+nav.navbar.bg-dark {
+    background-color: var(--nav-background) !important;
+    color: var(--nav-foreground);
+    padding: var(--pane-padding);
+}
+
+footer {
+    background-color: var(--footer-background);
+    color: var(--footer-foreground);
+    padding: var(--pane-padding);
+}
+
+button {
+    background-color: var(--button-background);
+    color: var(--button-foreground);
+}
+
+main section {
+    margin-bottom: 30px;
+    padding: 25px;
+}

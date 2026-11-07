@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Lato:wght@400;700&display=swap');
 
 :root {
-    --main-background: #F5FAF5;
+    --main-background: lightgreen;
     --main-foreground: #173B20;
     --nav-background: #008A00;
-    --nav-foreground: light green;
+    --nav-foreground: lightgreen;
     --footer-background: #005A00;
-    --footer-foreground: light green;
+    --footer-foreground: lightgreen;
     --button-background: #008A00;
-    --button-foreground: light green;
+    --button-foreground: lightgreen;
     --pane-padding: 5px 42px;
 }
 

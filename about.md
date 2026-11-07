@@ -1,4 +1,4 @@
-About Me
+# About Me
 
 Hi! My name is Janice Ding, and I am a third-year User Experience Design student at Wilfrid Laurier University. I am interested in designing websites and digital experiences that are simple, accessible, and easy for people to use. My future career goal is to become a UX designer at a financial institution, specifically TD Bank, where I hope to improve digital banking experiences for customers of different ages and backgrounds.
 

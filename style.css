@@ -4,6 +4,9 @@
     --heading-color: #005A00;
     --nav-background: #008A00;
     --footer-background: #005A00;
+    --button-background: #005A00;
+    --button-foreground: #FFFFFF;
+    --pane-padding: 5px 42px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Manrope:wght@400;500;600&display=swap');

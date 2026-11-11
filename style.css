@@ -28,6 +28,10 @@ nav.navbar.bg-dark {
     background-color: var(--nav-background) !important;
 }
 
+nav.navbar a {
+    color: white !important;
+}
+
 footer {
     background-color: var(--footer-background) !important;
     color: white !important;
@@ -37,4 +41,29 @@ footer a,
 footer p,
 footer span {
     color: white !important;
+}
+
+.btn {
+    background-color: var(--button-background);
+    color: var(--button-foreground);
+    font-family: 'Lato', sans-serif;
+}
+
+.btn:hover {
+    background-color: var(--heading-color);
+    color: white;
+}
+
+main {
+    background-color: var(--main-background);
+    padding: var(--pane-padding);
+}
+
+main > * {
+    margin-bottom: 20px;
+}
+
+main section,
+main article {
+    margin-bottom: 30px;
 }

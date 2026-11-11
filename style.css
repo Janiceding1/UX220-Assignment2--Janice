@@ -1,26 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lato:wght@400;700&display=swap');
 
 :root {
+    --main-background: #E8F5E9;
+    --main-foreground: #173B20;
     --heading-color: #005A00;
     --nav-background: #008A00;
-    --footer-background: #005A00;
-    --button-background: #005A00;
+    --footer-background: #008A00;
+    --button-background: #008A00;
     --button-foreground: #FFFFFF;
-    --pane-padding: 5px 42px;--main-background: #E8F5E9;
-    --main-foreground: #173B20;
+    --pane-padding: 5px 42px;
 }
 
-body {
-    background-color: var(--main-background);
+html, body {
+    background-color: var(--main-background) !important;
     color: var(--main-foreground);
-    font-family: 'Lato', sans-serif;
-    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--heading-color);
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
 }
 
 nav.navbar.bg-dark {
@@ -28,10 +25,12 @@ nav.navbar.bg-dark {
 }
 
 footer {
-    background-color: #008A00;
+    background-color: var(--footer-background) !important;
     color: white !important;
 }
 
-footer a {
+footer a,
+footer p,
+footer span {
     color: white !important;
 }

@@ -1,25 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Lato:wght@400;700&display=swap');
+
 :root {
-    --main-background: #E8F5E9;
+    --main-background: #F1F8F2;
     --main-foreground: #173B20;
-    --heading-color: #005A00;
-    --nav-background: #008A00;
-    --footer-background: #005A00;
-    --button-background: #005A00;
+    --heading-color: #006B3C;
+    --nav-background: #006B3C;
+    --footer-background: #006B3C;
+    --button-background: #006B3C;
     --button-foreground: #FFFFFF;
     --pane-padding: 5px 42px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Manrope:wght@400;500;600&display=swap');
-
 body {
     background-color: var(--main-background);
     color: var(--main-foreground);
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--heading-color);
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
 
